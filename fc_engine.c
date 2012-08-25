@@ -7,7 +7,7 @@
 
 // private ?
 int board_score(BOARD *board);
-int	board_genmove(BOARD *board, MOVE *mlist);
+int board_genmove(BOARD *board, MOVE *mlist);
 MOVE alphabeta(BOARD *board, int alpha, int beta, int dep, MOVE mlist[10][256]);
 
 // public	  
