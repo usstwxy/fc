@@ -38,7 +38,6 @@ int main()
 	BOARD *board = board_new();
 	MOVE move;
 	
-	//board_load(board, "test.pos");
 	
 	board_show(board);
 	while (1) {
